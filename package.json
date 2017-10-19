@@ -1,0 +1,27 @@
+{
+  "name": "last-tweet",
+  "version": "0.0.0",
+  "description": "Get Twitter user's last tweet",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/last-tweet.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "keywords": ["twitter", "tweet", "last", "promise"],
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "sanitize-html": "^1.14.1"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint-config-prettier": "^2.6.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": ["prettier"]
+  }
+}
