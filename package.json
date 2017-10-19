@@ -1,12 +1,17 @@
 {
   "name": "last-tweet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Get Twitter user's last tweet",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/last-tweet.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": ["twitter", "tweet", "last", "promise"],
+  "keywords": [
+    "twitter",
+    "tweet",
+    "last",
+    "promise"
+  ],
   "scripts": {
     "test": "xo && ava"
   },
@@ -22,6 +27,8 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"]
+    "extends": [
+      "prettier"
+    ]
   }
 }
