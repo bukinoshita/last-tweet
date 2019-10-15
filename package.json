@@ -22,9 +22,9 @@
     "sanitize-html": "^1.14.1"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
-    "eslint-config-prettier": "^2.6.0",
-    "xo": "^0.18.2"
+    "ava": "0.22.0",
+    "eslint-config-prettier": "2.6.0",
+    "xo": "0.18.2"
   },
   "xo": {
     "extends": [
