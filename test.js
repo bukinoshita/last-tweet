@@ -1,9 +1,7 @@
-'use strict'
-
 import test from 'ava'
 import m from '.'
 
-test(async t => {
+test('check last tweet', async t => {
   const tweet = await m('bukinoshita')
 
   t.truthy(tweet.user)

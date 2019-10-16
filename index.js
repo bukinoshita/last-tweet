@@ -1,5 +1,4 @@
-'use strict'
-
+// {aclages}
 const request = require('request-promise-native')
 const cheerio = require('cheerio')
 const sanitize = require('sanitize-html')
