@@ -1,6 +1,6 @@
 {
   "name": "last-tweet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get Twitter user's last tweet",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/last-tweet.git",
