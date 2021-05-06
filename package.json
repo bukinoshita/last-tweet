@@ -19,7 +19,7 @@
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5",
-    "sanitize-html": "^1.14.1"
+    "sanitize-html": "^2.3.2"
   },
   "devDependencies": {
     "ava": "2.4.0",
